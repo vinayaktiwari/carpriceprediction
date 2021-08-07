@@ -6,7 +6,7 @@ Created on Sat Aug  7 10:56:13 2021
 """
 
 from flask import Flask, render_template, request
-
+import jsonify
 import requests
 import pickle
 import numpy as np
